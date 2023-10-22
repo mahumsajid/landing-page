@@ -67,8 +67,7 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 300px;
-    flex: 1.2;
+    flex: 1.4;
     max-width: 500px;
 }
 
