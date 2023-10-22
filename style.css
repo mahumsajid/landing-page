@@ -7,7 +7,7 @@ body {
 .hero,
 .body,
 .footer {
-    padding: 10px 150px;
+    padding: 10px 160px;
 }
 
 .hero,
@@ -43,7 +43,7 @@ ul {
 .hero-content {
     display: flex;
     justify-content: center;
-    gap: 40px;
+    gap: 50px;
     margin: 85px 0px;
 }
 
