@@ -84,6 +84,44 @@ button {
     align-items: center;
 }
 
+h3 {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.main,
+.img-subtext,
+.card {
+    box-sizing: border-box;
+}
+
+.img {
+    border: 4px rgb(119, 119, 231) solid;
+    border-radius: 10%;
+    width: 9vw;
+    padding-bottom: 9vw;
+}
+
+.img-subtext {
+    color: grey;
+    /*used calc function to make text and squares exactly match up*/
+    width: calc(9vw + 8px);
+}
+
+.card {
+    text-align: center;
+}
+
+.main {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 56px;
+}
+
 .sign-up button {
     border: 0px white solid;
 }
+
