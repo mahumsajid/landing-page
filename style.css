@@ -1,11 +1,10 @@
 body {
     margin: 0px;
     padding: 0px;
-    font-family: 'roboto', Georgia, sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .hero,
-.body,
 .footer {
     padding: 10px 160px;
 }
@@ -84,6 +83,11 @@ button {
     align-items: center;
 }
 
+.body {
+    margin: 0px;
+    padding: 10px 0px; 
+}
+
 h3 {
     color: #1F2937;
     font-size: 36px;
@@ -108,10 +112,12 @@ h3 {
     color: grey;
     /*used calc function to make text and squares exactly match up*/
     width: calc(9vw + 8px);
+    padding: 4px 0px;
 }
 
 .card {
     text-align: center;
+    padding-top: 20px;
 }
 
 .main {
@@ -119,6 +125,20 @@ h3 {
     display: flex;
     justify-content: center;
     gap: 56px;
+    padding-bottom: 20px;
+}
+
+.quote-banner {
+    background-color: #e5e7eb;
+    margin: 0px;
+}
+
+.quote {
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    text-align: center;
 }
 
 .sign-up button {
