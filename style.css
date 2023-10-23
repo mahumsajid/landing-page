@@ -90,11 +90,18 @@ button {
     flex-direction: column;
 }
 
-.context,
+.content,
 .quote-banner,
 .sign-banner {
     flex: 1;
     min-height: 300px;
+}
+
+.content {
+    padding: 0px 0px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 
 h3 {
@@ -102,6 +109,7 @@ h3 {
     font-size: 36px;
     font-weight: 800;
     text-align: center;
+    margin: 36px 0px 25px;
 }
 
 .main,
