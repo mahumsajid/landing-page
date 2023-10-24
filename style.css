@@ -147,16 +147,31 @@ h3 {
 
 .quote-banner {
     background-color: #e5e7eb;
-    margin: 0px;
-    padding: 10px;
+    display: flex;
+    justify-content: center;
 }
 
 .quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 46vw;
+    padding: 70px;
+}
+
+blockquote {
     color: #1f2937;
-    font-size: 36px;
+    font-size: 32px;
     font-style: italic;
     font-weight: 100;
-    text-align: center;
+    margin: 0px 0px 4px;
+}
+
+.credit {
+    font-size: 18px;
+    font-weight: bold;
+    align-self: flex-end;
 }
 
 .sign-up button {
