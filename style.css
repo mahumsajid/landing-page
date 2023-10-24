@@ -6,14 +6,10 @@ body {
 
 .hero,
 .footer {
-    padding: 10px 160px;
-}
-
-.hero,
-.footer {
     background-color: #1f2937;
     color: #e5e7eb;
     font-size: 18px;
+    padding: 10px 160px;
 }
 
 .header {
@@ -83,9 +79,9 @@ button {
     align-items: center;
 }
 
-.body {
+.body { 
     margin: 0px;
-    padding: 10px 0px; 
+    padding: 0px;
     display: flex;
     flex-direction: column;
 }
@@ -120,7 +116,7 @@ h3 {
 }
 
 .img {
-    border: 4px rgb(119, 119, 231) solid;
+    border: 4px #3882f6 solid;
     border-radius: 10%;
     width: 9vw;
     padding-bottom: 9vw;
@@ -176,11 +172,36 @@ blockquote {
     padding-right: 30px;
 }
 
+.sign-up {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882f6;
+    width: 1334px;
+    height: 35vh;
+    color: white;
+    margin: 30px auto;
+    padding: 40px;
+}
+
+
+h6 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0px;
+}
+
+p {
+    font-size: 16px;
+    margin: 0px;
+}
+
 .sign-up button {
-    border: 0px white solid;
+    border: 4px white solid;
 }
 
 .footer {
+    margin-top: 0px;
     text-align: center;
 }
 
