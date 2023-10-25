@@ -38,7 +38,7 @@ ul {
 .hero-content {
     display: flex;
     justify-content: center;
-    gap: 50px;
+    gap: 70px;
     margin: 85px 0px;  
 }
 
@@ -74,9 +74,6 @@ button {
     border-radius: 6px;
     padding: 8px 32px;
     border-style: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .body { 
@@ -176,24 +173,28 @@ blockquote {
     box-sizing: border-box;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     background-color: #3882f6;
+    border-radius: 6px;
     width: 1334px;
-    height: 35vh;
+    height: 150px;
     color: white;
-    margin: 30px auto;
-    padding: 40px;
+    margin: 80px auto;
+    padding: 40px 125px;
 }
 
+h6,
+p {
+    margin: 0px;
+}
 
 h6 {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: bold;
-    margin: 0px;
 }
 
 p {
     font-size: 16px;
-    margin: 0px;
 }
 
 .sign-up button {
