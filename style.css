@@ -9,7 +9,7 @@ body {
     background-color: #1f2937;
     color: #e5e7eb;
     font-size: 18px;
-    padding: 10px 160px;
+    padding: 10px 200px;
 }
 
 .header {
@@ -84,7 +84,6 @@ button {
 }
 
 /* To Do: fix sizing of each portion*/
-
 .content,
 .quote-banner {
     flex: 1;
@@ -135,7 +134,7 @@ h3 {
     text-align: center;
     display: flex;
     justify-content: center;
-    gap: 56px;
+    gap: 80px;
     padding-bottom: 20px;
 }
 
@@ -150,7 +149,7 @@ h3 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    max-width: 44vw;
+    max-width: 46vw;
     padding: 70px;
 }
 
@@ -159,7 +158,7 @@ blockquote {
     font-size: 32px;
     font-style: italic;
     font-weight: 100;
-    margin: 0px 0px 3px;
+    margin: 0px 0px 10px;
 }
 
 .credit {
@@ -176,10 +175,9 @@ blockquote {
     align-items: center;
     background-color: #3882f6;
     border-radius: 6px;
-    width: 1334px;
     height: 150px;
     color: white;
-    margin: 80px auto;
+    margin: 80px 200px;
     padding: 40px 125px;
 }
 
@@ -204,5 +202,7 @@ p {
 .footer {
     margin-top: 0px;
     text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
