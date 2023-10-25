@@ -81,20 +81,11 @@ button {
     padding: 0px;
     display: flex;
     flex-direction: column;
-}
-
-/* To Do: fix sizing of each portion*/
-.content,
-.quote-banner {
-    flex: 1;
-    height: 300px;
+    justify-content: center;
 }
 
 .content {
-    padding: 0px 0px 40px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
+    padding: 0px 0px 42px;
 }
 
 h3 {
